@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+#container_1{
+    height: 100px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    box-shadow: rgb(205, 202, 202) 2px 2px 2px 2px;
+    position: fixed;
+}
+
+#nou{
+    text-decoration: none;
+}
+
+
+#home {
+    color: aliceblue;
+    padding-left: 7rem;
+    font-family: Gilroy;
+    font-size: 25px;
+    padding-top: 1.9rem;
+    transition: all ease-in 1s;
+}
+
+#home:hover {
+    color: blue;
+    text-shadow: -1px -1px 2px;
+    text-decoration: underline;
+}
+
+
+#about {
+    color: aliceblue;
+    padding-left: 7rem;
+    font-family: Gilroy;
+    font-size: 25px;
+    padding-top: 1.9rem;
+    transition: all ease-in 1s;
+}
+#about:hover {
+    color: red;
+    text-shadow: -1px -1px 2px;
+    text-decoration: underline;
+}
+#store {
+    color: aliceblue;
+    padding-left: 7rem;
+    font-family: Gilroy;
+    font-size: 25px;
+    padding-top: 1.9rem;
+    transition: all ease-in 1s;
+}
+#store:hover {
+    color: lime;
+    text-shadow: -1px -1px 2px;
+    text-decoration: underline;
+}
+
+.ri-discord-fill{
+    color: white;
+    padding-left: 28rem;
+    font-size: 30px;
+}
+.ri-youtube-fill{
+    color: white;
+    padding-left: 7rem;
+    font-size: 30px;
+}
+.ri-facebook-fill{
+    color: white;
+    padding-left: 7rem;
+    font-size: 30px;
+}
+.down{
+    padding-top: 2rem;
+}
+.q1 {
+    color: white;
+    font-family: Bebas Neue;
+    padding-top: 3%;
+    font-size: 50px;
+    color: limegreen;
+    text-shadow: limegreen 3px 3px 4px;
+    text-align: center;
+    word-spacing: 7px;
+    letter-spacing: 1rem;
+}
+.is {
+    color: gold;
+    text-shadow: gold 3px 3px 4px;
+}
+
+.brk1{
+    color: red;
+    text-shadow: red 3px 3px 4px;
+}
+
+#container_2{
+    height: 40rem;
+    width: 60rem;
+    background-color: rgb(187, 192, 192);
+    margin-left: 16rem;
+    border-radius: 2rem;
+}
+
+@media (max-width: 600px){
+    html,body{
+        height: 100%;
+        width: 100%;
+    }
+    #container_1{
+        height: 75px;
+        width: 100%;
+    }
+    #home {
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+
+    #about{
+        padding-left: 1.5rem;
+        font-size: 1rem;
+    }
+    #store{
+        padding-left: 1.5rem;
+        font-size: 1rem;
+    }
+    .ri-discord-fill{
+        padding-left: 15rem;
+    }
+    .ri-youtube-fill{
+        padding-left: 2rem;
+    }
+    .ri-facebook-fill{
+        padding-left: 2rem;
+    }
+    .q1{
+        font-size: 40px;
+    }
+    #container_2{
+        height: 20rem;
+        width: 25rem;
+        position: absolute;
+        right: 5.5rem;
+    }
+
+}
